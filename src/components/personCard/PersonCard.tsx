@@ -14,6 +14,7 @@ export default function PersonCard({ person }: Props) {
         value={JSON.stringify(person)}
         minRows={5}
       ></Textarea>
+      <h2>Jofran Benitez Dolores</h2>
     </>
   );
 }
